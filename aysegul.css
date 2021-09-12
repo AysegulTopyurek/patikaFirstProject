@@ -1,0 +1,43 @@
+.imgGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 220px);
+    gap: 1em;
+}
+
+.imgGrid .box {
+    box-shadow: 1px 1px 5px lightgray;
+}
+
+.imgGrid .box div :not(img) {
+    padding: .5em;
+}
+
+.imgGrid .image img {
+    max-width: 100%;
+}
+
+.btnSet {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.btn {
+    background-color: gray;
+    color: white;
+    padding: .5em 3em;
+    text-decoration: none;
+}
+
+.imgGrid h2,
+.imgGrid p {
+    margin: 0;
+    padding: 0;
+}
+
+form label,
+form input,
+form select {
+    width: 100%;
+    padding: 5px;
+}
